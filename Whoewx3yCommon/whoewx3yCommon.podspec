@@ -3,9 +3,9 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "whoewx3yExtension"
+  s.name         = "whoewx3yCommon"
   s.version      = "0.0.1"
-  s.summary      = "A short description of whoewx3yExtension."
+  s.summary      = "A short description of whoewx3yCommon."
   s.license      = "MIT"
 
   s.author             = { "nutdanai" => "mellonb77@gmail.com" }
