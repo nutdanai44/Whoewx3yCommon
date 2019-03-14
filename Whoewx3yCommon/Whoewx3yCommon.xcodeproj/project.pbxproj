@@ -13,6 +13,9 @@
 		182FD50022360AAF00A2A0D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182FD4FF22360AAF00A2A0D8 /* Assets.xcassets */; };
 		182FD50322360AAF00A2A0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182FD50122360AAF00A2A0D8 /* LaunchScreen.storyboard */; };
 		182FD50C22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FD50B22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift */; };
+		182FD5BE223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FD5BD223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift */; };
+		182FD5C0223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FD5BF223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift */; };
+		18FF93E6223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF93E5223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		182FD50222360AAF00A2A0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182FD50422360AAF00A2A0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182FD50B22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Whoewx3y+NumberExtension.swift"; sourceTree = "<group>"; };
+		182FD5BD223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Whoewx3Y+ColorExtension.swift"; sourceTree = "<group>"; };
+		182FD5BF223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Whoewx3y+UILabelExtension.swift"; sourceTree = "<group>"; };
+		18FF93E5223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Whoewx3y+UIViewExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,9 @@
 		182FD4F722360AAB00A2A0D8 /* Whoewx3yCommon */ = {
 			isa = PBXGroup;
 			children = (
+				182FD5B8223A4EDE00A2A0D8 /* Main */,
 				182FD50A22360AB800A2A0D8 /* Source */,
 				182FD4F822360AAB00A2A0D8 /* AppDelegate.swift */,
-				182FD4FA22360AAB00A2A0D8 /* ViewController.swift */,
-				182FD4FC22360AAB00A2A0D8 /* Main.storyboard */,
 				182FD4FF22360AAF00A2A0D8 /* Assets.xcassets */,
 				182FD50122360AAF00A2A0D8 /* LaunchScreen.storyboard */,
 				182FD50422360AAF00A2A0D8 /* Info.plist */,
@@ -70,9 +75,37 @@
 		182FD50A22360AB800A2A0D8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				182FD50B22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift */,
+				18FF93E8223A5A2B00AF8DA2 /* Function */,
+				18FF93E7223A5A1F00AF8DA2 /* Extension */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		182FD5B8223A4EDE00A2A0D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				182FD4FA22360AAB00A2A0D8 /* ViewController.swift */,
+				182FD4FC22360AAB00A2A0D8 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18FF93E7223A5A1F00AF8DA2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				182FD50B22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift */,
+				182FD5BD223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift */,
+				182FD5BF223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift */,
+				18FF93E5223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18FF93E8223A5A2B00AF8DA2 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Function;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				182FD50C22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift in Sources */,
+				182FD5C0223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift in Sources */,
+				182FD5BE223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift in Sources */,
 				182FD4FB22360AAB00A2A0D8 /* ViewController.swift in Sources */,
+				18FF93E6223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift in Sources */,
 				182FD4F922360AAB00A2A0D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
