@@ -57,4 +57,18 @@ public class Whoewx3yViewMask: UIView {
         // Tha magic! Set the label as the views mask
         view.mask = label
     }
+    
+    func maskAsImage(colors: [CGColor], image: UIImage, mode: UIView.ContentMode) {
+        let view = UIView(frame: self.bounds)
+        self.addSubview(view)
+        view.setGradientWithColor(colors: colors)
+        
+        let imageView = UIImageView(frame: view.bounds)
+        imageView.contentMode = mode
+        imageView.image = image
+        view.addSubview(imageView)
+        
+        // Tha magic! Set the label as the views mask
+        view.mask = imageView
+    }
 }

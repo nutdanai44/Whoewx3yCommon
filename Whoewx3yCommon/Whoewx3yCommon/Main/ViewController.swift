@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var tb: UITableView!
     
     @IBOutlet var headerView: Whoewx3yViewMask!
+    @IBOutlet var subView: Whoewx3yViewMask!
     
     let function:[[String]] = [
         ["Number","String"]
@@ -28,7 +29,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         initHeader()
         initTableView()
-        
+        initSubView()
 //        headerView.setGradientWithColor(colors: [UIColor.red.cgColor, UIColor.green.cgColor])
     }
     
@@ -37,6 +38,10 @@ class ViewController: UIViewController {
         var headerText = Whoewx3yViewMask.Label.Model()
         headerText.text = "Welcome to Nutdanai framework"
         headerView.maskAsLabel(colors: [UIColor.red.cgColor, UIColor.green.cgColor], lb: headerText)
+    }
+    
+    func initSubView() {
+        subView.maskAsImage(colors: [UIColor.black.cgColor, UIColor.blue.cgColor, UIColor.black.cgColor], image: #imageLiteral(resourceName: "testImage3.png"), mode: .scaleAspectFit)
     }
     
     func initTableView() {
