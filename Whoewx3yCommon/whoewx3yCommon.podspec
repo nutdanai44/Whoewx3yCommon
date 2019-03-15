@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/nutdanai44/whoewx3y.git", :tag => "#{spec.version}" }
+  s.source       = { :git => "https://github.com/nutdanai44/whoewx3y.git", :tag => "#{s.version}" }
   s.source_files = "Whoewx3yCommon/Whoewx3yCommon/**/*.{h,m,swift}"
   s.resources = "Whoewx3yCommon/Whoewx3yCommon/**/*.{xib}"
   
