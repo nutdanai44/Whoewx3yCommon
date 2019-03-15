@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
   s.author             = { "nutdanai" => "mellonb77@gmail.com" }
-
+  s.homepage     = "https://github.com/nutdanai44/whoewx3y.git"
   s.ios.deployment_target = "8.0"
 
   s.source       = { :git => "https://github.com/nutdanai44/whoewx3y.git", :tag => "#{s.version}" }
