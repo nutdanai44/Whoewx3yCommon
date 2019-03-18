@@ -84,10 +84,7 @@
 		182FD50A22360AB800A2A0D8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				182FD50B22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift */,
-				182FD5BD223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift */,
-				182FD5BF223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift */,
-				18FF93E5223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift */,
+				18FF93F4223F4F9200AF8DA2 /* Extension */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -110,6 +107,17 @@
 				18FF93EC223A6AF700AF8DA2 /* testImage.jpg */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		18FF93F4223F4F9200AF8DA2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				182FD50B22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift */,
+				182FD5BD223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift */,
+				182FD5BF223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift */,
+				18FF93E5223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
