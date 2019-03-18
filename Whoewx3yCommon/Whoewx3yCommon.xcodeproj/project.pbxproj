@@ -19,6 +19,7 @@
 		18FF93ED223A6AF700AF8DA2 /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FF93EC223A6AF700AF8DA2 /* testImage.jpg */; };
 		18FF93EF223A6C0F00AF8DA2 /* testImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FF93EE223A6C0F00AF8DA2 /* testImage2.png */; };
 		18FF93F1223A6CE900AF8DA2 /* testImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FF93F0223A6CE900AF8DA2 /* testImage3.png */; };
+		18FF93F3223BC02700AF8DA2 /* Whoewx3ySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF93F2223BC02700AF8DA2 /* Whoewx3ySetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		18FF93EC223A6AF700AF8DA2 /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
 		18FF93EE223A6C0F00AF8DA2 /* testImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage2.png; sourceTree = "<group>"; };
 		18FF93F0223A6CE900AF8DA2 /* testImage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage3.png; sourceTree = "<group>"; };
+		18FF93F2223BC02700AF8DA2 /* Whoewx3ySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whoewx3ySetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				182FD4FF22360AAF00A2A0D8 /* Assets.xcassets */,
 				182FD50122360AAF00A2A0D8 /* LaunchScreen.storyboard */,
 				182FD50422360AAF00A2A0D8 /* Info.plist */,
+				18FF93F2223BC02700AF8DA2 /* Whoewx3ySetting.swift */,
 			);
 			path = Whoewx3yCommon;
 			sourceTree = "<group>";
@@ -81,8 +84,10 @@
 		182FD50A22360AB800A2A0D8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				18FF93E8223A5A2B00AF8DA2 /* Function */,
-				18FF93E7223A5A1F00AF8DA2 /* Extension */,
+				182FD50B22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift */,
+				182FD5BD223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift */,
+				182FD5BF223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift */,
+				18FF93E5223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -95,24 +100,6 @@
 				182FD4FC22360AAB00A2A0D8 /* Main.storyboard */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		18FF93E7223A5A1F00AF8DA2 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				182FD50B22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift */,
-				182FD5BD223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift */,
-				182FD5BF223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift */,
-				18FF93E5223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		18FF93E8223A5A2B00AF8DA2 /* Function */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Function;
 			sourceTree = "<group>";
 		};
 		18FF93EB223A6AE400AF8DA2 /* Image */ = {
@@ -205,6 +192,7 @@
 				182FD4FB22360AAB00A2A0D8 /* ViewController.swift in Sources */,
 				18FF93E6223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift in Sources */,
 				182FD4F922360AAB00A2A0D8 /* AppDelegate.swift in Sources */,
+				18FF93F3223BC02700AF8DA2 /* Whoewx3ySetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
