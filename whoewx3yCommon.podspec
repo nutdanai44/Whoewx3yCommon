@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "whoewx3yCommon"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Nutdanai framework."
   s.license      = 'MIT'
 
@@ -14,7 +14,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.3"
   s.source       = { :git => "https://github.com/nutdanai44/Whoewx3yCommon.git", :tag => "#{s.version}" }
 
-  s.source_files = 'Whoewx3yCommon/Whoewx3yCommon/Source/**/*.{h,m,swift}'
+
+  s.default_subspec = 'Core'
+
+  s.subspec 'Core' do |core|
+    core.source_files = 'Whoewx3yCommon/Whoewx3yCommon/Source/**/*.{h,m,swift}'
+  end
   
   s.requires_arc = true
 end
