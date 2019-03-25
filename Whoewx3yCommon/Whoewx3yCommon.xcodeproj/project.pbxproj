@@ -20,6 +20,10 @@
 		18FF93EF223A6C0F00AF8DA2 /* testImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FF93EE223A6C0F00AF8DA2 /* testImage2.png */; };
 		18FF93F1223A6CE900AF8DA2 /* testImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FF93F0223A6CE900AF8DA2 /* testImage3.png */; };
 		18FF93F3223BC02700AF8DA2 /* Whoewx3ySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF93F2223BC02700AF8DA2 /* Whoewx3ySetting.swift */; };
+		18FF93F62248E9B100AF8DA2 /* Whoewx3y+UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF93F52248E9B100AF8DA2 /* Whoewx3y+UIImageExtension.swift */; };
+		18FF93F82248E9E700AF8DA2 /* Whoewx3y+StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF93F72248E9E700AF8DA2 /* Whoewx3y+StringExtension.swift */; };
+		18FF93FA2248EAA800AF8DA2 /* Whoewx3y+UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF93F92248EAA800AF8DA2 /* Whoewx3y+UIViewControllerExtension.swift */; };
+		18FF93FC2248EB3000AF8DA2 /* Whoewx3y+UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF93FB2248EB3000AF8DA2 /* Whoewx3y+UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		18FF93EE223A6C0F00AF8DA2 /* testImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage2.png; sourceTree = "<group>"; };
 		18FF93F0223A6CE900AF8DA2 /* testImage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage3.png; sourceTree = "<group>"; };
 		18FF93F2223BC02700AF8DA2 /* Whoewx3ySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whoewx3ySetting.swift; sourceTree = "<group>"; };
+		18FF93F52248E9B100AF8DA2 /* Whoewx3y+UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Whoewx3y+UIImageExtension.swift"; sourceTree = "<group>"; };
+		18FF93F72248E9E700AF8DA2 /* Whoewx3y+StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Whoewx3y+StringExtension.swift"; sourceTree = "<group>"; };
+		18FF93F92248EAA800AF8DA2 /* Whoewx3y+UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Whoewx3y+UIViewControllerExtension.swift"; sourceTree = "<group>"; };
+		18FF93FB2248EB3000AF8DA2 /* Whoewx3y+UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Whoewx3y+UIButtonExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,10 @@
 				182FD5BD223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift */,
 				182FD5BF223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift */,
 				18FF93E5223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift */,
+				18FF93F52248E9B100AF8DA2 /* Whoewx3y+UIImageExtension.swift */,
+				18FF93F72248E9E700AF8DA2 /* Whoewx3y+StringExtension.swift */,
+				18FF93F92248EAA800AF8DA2 /* Whoewx3y+UIViewControllerExtension.swift */,
+				18FF93FB2248EB3000AF8DA2 /* Whoewx3y+UIButtonExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -195,11 +207,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				182FD50C22360B2000A2A0D8 /* Whoewx3y+NumberExtension.swift in Sources */,
+				18FF93F62248E9B100AF8DA2 /* Whoewx3y+UIImageExtension.swift in Sources */,
 				182FD5C0223A549800A2A0D8 /* Whoewx3y+UILabelExtension.swift in Sources */,
 				182FD5BE223A53D500A2A0D8 /* Whoewx3Y+ColorExtension.swift in Sources */,
 				182FD4FB22360AAB00A2A0D8 /* ViewController.swift in Sources */,
+				18FF93F82248E9E700AF8DA2 /* Whoewx3y+StringExtension.swift in Sources */,
 				18FF93E6223A589700AF8DA2 /* Whoewx3y+UIViewExtension.swift in Sources */,
 				182FD4F922360AAB00A2A0D8 /* AppDelegate.swift in Sources */,
+				18FF93FA2248EAA800AF8DA2 /* Whoewx3y+UIViewControllerExtension.swift in Sources */,
+				18FF93FC2248EB3000AF8DA2 /* Whoewx3y+UIButtonExtension.swift in Sources */,
 				18FF93F3223BC02700AF8DA2 /* Whoewx3ySetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
