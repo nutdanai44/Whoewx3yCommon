@@ -18,7 +18,6 @@ public class ClosureWrapper: NSObject {
 }
 
 public extension UIButton {
-
     private struct AssociatedKeys {
         static var targetClosure = "targetClosure"
     }
