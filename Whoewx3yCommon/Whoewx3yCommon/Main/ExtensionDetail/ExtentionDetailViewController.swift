@@ -111,7 +111,7 @@ extension ExtentionDetailViewController {
         title03.text = "isPhoneNumber = check phone regEx"
         
         let value = "i am a man"
-        value03.text = "contains = \(value) -> \n" + "(find an) \(value.contains(find: "an"))\n" + "(find man) \(value.contains(find: "man"))\n" + "(find girl) \(value.contains(find: "girl"))"
+        value03.text = "contains = \(value) -> \n" + "(can find an) \(value.contains(find: "an"))\n" + "(can find man) \(value.contains(find: "man"))\n" + "(can find girl) \(value.contains(find: "girl"))"
         
         title04.text = "generateQRCode = \n" + "convert string to QR image"
     }
